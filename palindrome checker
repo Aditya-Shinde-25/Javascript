@@ -1,0 +1,8 @@
+let palindrome = (str) => {
+    let final = str.toLowerCase().match(/[a-z0-9]/g)
+    let reversed = final.reverse()
+    return reversed === final
+
+}
+
+palindrome('racecar')
